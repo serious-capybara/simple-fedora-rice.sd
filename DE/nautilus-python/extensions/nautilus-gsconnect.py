@@ -1,0 +1,1 @@
+/home/the-grand-capybara/.var/app/io.github.vikdevelop.SaveDesktop/cache/tmp/workspace/home/restyaldave/.local/share/gnome-shell/extensions/gsconnect@andyholmes.github.io/nautilus-gsconnect.py

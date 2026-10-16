@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schemalist SYSTEM "https://gitlab.gnome.org/GNOME/glib/-/raw/main/gio/gschema.dtd">
+<schemalist>
+    <schema id="org.gnome.shell.extensions.notification-badge" path="/org/gnome/shell/extensions/notification-badge/">
+        <key name="only-count-unseen" type="b">
+            <default>false</default>
+        </key>
+        <key name="use-custom-color" type="b">
+            <default>false</default>
+        </key>
+        <key name="color-background" type="s">
+            <default>'#FF0000'</default>
+        </key>
+        <key name="color-foreground" type="s">
+            <default>'#FFFFFF'</default>
+        </key>
+    </schema>
+</schemalist>

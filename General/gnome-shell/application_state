@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="md.obsidian.Obsidian.desktop" score="312.8125" last-seen="1791609672"/>
+    <application id="org.gnome.TextEditor.desktop" score="742.375" last-seen="1792094707"/>
+    <application id="org.gnome.SystemMonitor.desktop" score="75.25" last-seen="1791692251"/>
+    <application id="com.stremio.Stremio.desktop" score="700" last-seen="1791608493"/>
+    <application id="org.gnome.Ptyxis.desktop" score="1277.5" last-seen="1792093882"/>
+    <application id="qoder.desktop" score="176.5" last-seen="1791731726"/>
+    <application id="com.jgraph.drawio.desktop.desktop" score="173" last-seen="1791620762"/>
+    <application id="org.gnome.Showtime.desktop" score="991" last-seen="1791964210"/>
+    <application id="FreeFileSync.desktop" score="474.5" last-seen="1792062702"/>
+    <application id="cursor.desktop" score="49.5" last-seen="1791728765"/>
+    <application id="libreoffice-startcenter.desktop" score="0" last-seen="1792153450"/>
+    <application id="org.gnome.Shell.Extensions.GSConnect.Preferences.desktop" score="16.5" last-seen="1791963835"/>
+    <application id="CherryStudio.desktop" score="3951.5" last-seen="1792152070"/>
+    <application id="com.mattjakeman.ExtensionManager.desktop" score="197" last-seen="1792094534"/>
+    <application id="code.desktop" score="2186.5625" last-seen="1792029670"/>
+    <application id="com.github.neithern.g4music.desktop" score="151" last-seen="1792027904"/>
+    <application id="org.gnome.NetworkDisplays.desktop" score="8" last-seen="1791719386"/>
+    <application id="org.gnome.Software.desktop" score="160" last-seen="1792093745"/>
+    <application id="fr.handbrake.ghb.desktop" score="121" last-seen="1791781109"/>
+    <application id="ai.storyteller.photocraft.desktop" score="42" last-seen="1792153009"/>
+    <application id="antigravity-ide.desktop" score="1822.5" last-seen="1791911167"/>
+    <application id="com.brave.Browser.desktop" score="22327.25" last-seen="1792153346"/>
+    <application id="scrcpy.desktop" score="104" last-seen="1792043388"/>
+    <application id="pgadmin4.desktop" score="86" last-seen="1791691787"/>
+    <application id="com.cloudflare.WarpTaskbar.desktop" score="1" last-seen="1792151968"/>
+    <application id="org.gnome.Settings.desktop" score="135" last-seen="1792080694"/>
+    <application id="org.gnome.Loupe.desktop" score="270.5" last-seen="1792153203"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="439.1875" last-seen="1792094506"/>
+    <application id="org.gnome.Nautilus.desktop" score="6105.2792405845557" last-seen="1792156363"/>
+    <application id="antigravity.desktop" score="10783.625" last-seen="1791897612"/>
+    <application id="org.gnome.Papers.desktop" score="538.5625" last-seen="1792153435"/>
+    <application id="com.obsproject.Studio.desktop" score="74" last-seen="1792055899"/>
+    <application id="org.mozilla.firefox.desktop" score="19928.07187066062" last-seen="1792155869"/>
+    <application id="org.gnome.Snapshot.desktop" score="1" last-seen="1792081126"/>
+    <application id="org.onlyoffice.desktopeditors.desktop" score="2968.875" last-seen="1792156362"/>
+    <application id="org.localsend.localsend_app.desktop" score="84" last-seen="1792019190"/>
+    <application id="google-chrome.desktop" score="221.25" last-seen="1792040824"/>
+    <application id="org.gnome.clocks.desktop" score="1" last-seen="1791880135"/>
+    <application id="dbeaver-ce.desktop" score="18" last-seen="1792029857"/>
+    <application id="com.tradingview.tradingview.desktop" score="5" last-seen="1792081939"/>
+    <application id="libreoffice-calc.desktop" score="0" last-seen="1792153451"/>
+  </context>
+</application-state>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="draw-on-gnome">
+  <schema path="/org/gnome/shell/extensions/draw-on-gnome/" id="org.gnome.shell.extensions.draw-on-gnome">
+    <child name="drawing" schema="org.gnome.shell.extensions.draw-on-gnome.drawing"/>
+    <child name="internal-shortcuts" schema="org.gnome.shell.extensions.draw-on-gnome.internal-shortcuts"/>
+    <key type="b" name="drawing-on-desktop">
+      <default>false</default>
+      <summary>Drawing on the desktop</summary>
+      <description><![CDATA[<i>Draw On Gnome</i> becomes <i>Draw On Gnome Desktop</i>]]></description>
+    </key>
+    <key type="as" name="erase-drawings">
+      <default>["&lt;Alt&gt;&lt;Super&gt;e"]</default>
+      <summary>Erase all drawings</summary>
+    </key>
+    <key type="b" name="indicator-disabled">
+      <default>false</default>
+      <summary>Disable panel indicator</summary>
+    </key>
+    <key type="b" name="quicktoggle-disabled">
+      <default>false</default>
+      <summary>Disable quick settings toggle</summary>
+    </key>
+    <key type="b" name="osd-disabled">
+      <default>false</default>
+      <summary>Disable on-screen notifications</summary>
+    </key>
+    <key type="b" name="persistent-over-toggles">
+      <default>true</default>
+      <summary>Persistent over toggles</summary>
+      <description>Drawing remains when toggling drawing mode</description>
+    </key>
+    <key type="b" name="persistent-over-restarts">
+      <default>false</default>
+      <summary>Persistent over restarts</summary>
+      <description>Drawing is automatically saved to a file</description>
+    </key>
+    <key type="b" name="copy-picked-hex">
+      <default>false</default>
+      <summary>Copy picked color to clipboard</summary>
+      <description>After using color picker, the picked value is saved to clipboard</description>
+    </key>
+    <key type="as" name="toggle-drawing">
+      <default>["&lt;Alt&gt;&lt;Super&gt;d"]</default>
+      <summary>Enter/leave drawing mode</summary>
+    </key>
+    <key type="as" name="toggle-modal">
+      <default>["&lt;Primary&gt;&lt;Alt&gt;&lt;Super&gt;d"]</default>
+      <!-- Translators: there is a similar text in GNOME Boxes (https://gitlab.gnome.org/GNOME/gnome-boxes/tree/master/po) -->
+      <summary>Grab/ungrab keyboard and pointer</summary>
+      <description></description>
+    </key>
+  </schema>
+</schemalist>

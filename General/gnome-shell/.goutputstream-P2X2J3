@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.TextEditor.desktop" score="8.17449951171875" last-seen="1769066256"/>
+    <application id="org.gnome.SystemMonitor.desktop" score="0.00390625" last-seen="1768826752"/>
+    <application id="org.gnome.Ptyxis.desktop" score="0.7796630859375" last-seen="1768833654"/>
+    <application id="com.mattjakeman.ExtensionManager.desktop" score="0.16796875" last-seen="1768822505"/>
+    <application id="com.github.muriloventuroso.givemelyrics.desktop" score="0.28125" last-seen="1768495155"/>
+    <application id="org.gnome.tweaks.desktop" score="0.003173828125" last-seen="1768713043"/>
+    <application id="FreeFileSync.desktop" score="11.325439453125" last-seen="1769101275"/>
+    <application id="io.github.vikdevelop.SaveDesktop.desktop" score="0.07080078125" last-seen="1768963640"/>
+    <application id="org.gnome.Showtime.desktop" score="0.28564453125" last-seen="1768744808"/>
+    <application id="net.lutris.Lutris.desktop" score="0.23828125" last-seen="1768831734"/>
+    <application id="org.blender.Blender.desktop" score="0.044921875" last-seen="1768971952"/>
+    <application id="code.desktop" score="946.45751953125" last-seen="1769105030"/>
+    <application id="org.gnome.NetworkDisplays.desktop" score="0.0234375" last-seen="1768736371"/>
+    <application id="com.spotify.Client.desktop" score="2.423583984375" last-seen="1768925741"/>
+    <application id="org.gnome.Software.desktop" score="2.8572998046875" last-seen="1769016375"/>
+    <application id="org.gnome.Settings.desktop" score="117442172.73565674" last-seen="1769019519"/>
+    <application id="wine.desktop" score="0" last-seen="1768831401"/>
+    <application id="org.freedesktop.GnomeAbrt.desktop" score="0.001953125" last-seen="1768786854"/>
+    <application id="org.gnome.Calculator.desktop" score="0.0068359375" last-seen="1768562918"/>
+    <application id="com.usebottles.bottles.desktop" score="0.17578125" last-seen="1768827931"/>
+    <application id="org.gnome.Loupe.desktop" score="7.81341552734375" last-seen="1769075024"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="0.0390625" last-seen="1768822605"/>
+    <application id="org.gnome.Boxes.desktop" score="0.35546875" last-seen="1768918128"/>
+    <application id="org.gnome.DiskUtility.desktop" score="0.46142578125" last-seen="1768833733"/>
+    <application id="org.gnome.Nautilus.desktop" score="4065.04345703125" last-seen="1769102722"/>
+    <application id="org.gnome.Papers.desktop" score="106.41552734375" last-seen="1769019506"/>
+    <application id="antigravity.desktop" score="0.23828125" last-seen="1768667002"/>
+    <application id="org.mozilla.firefox.desktop" score="1322.1244506835938" last-seen="1769105082"/>
+    <application id="org.onlyoffice.desktopeditors.desktop" score="29.93719482421875" last-seen="1769104898"/>
+    <application id="io.github.debasish_patra_1987.linuxthemestore.desktop" score="0" last-seen="1768829753"/>
+    <application id="org.gnome.baobab.desktop" score="0.00390625" last-seen="1768832359"/>
+    <application id="org.gnome.Yelp.desktop" score="0" last-seen="1768748255"/>
+  </context>
+</application-state>

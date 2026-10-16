@@ -1,0 +1,53 @@
+<!--
+SPDX-FileCopyrightText: 2023 Florian Müllner <fmuellner@gnome.org>
+
+SPDX-License-Identifier: GPL-2.0-or-later
+-->
+
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema id="org.gnome.shell.extensions.system-monitor-serious-capybara"
+          path="/org/gnome/shell/extensions/system-monitor-serious-capybara/">
+    <key name="show-cpu" type="b">
+      <default>true</default>
+      <summary>Show CPU usage</summary>
+    </key>
+    <key name="show-memory" type="b">
+      <default>true</default>
+      <summary>Show memory usage</summary>
+    </key>
+    <key name="show-swap" type="b">
+      <default>true</default>
+      <summary>Show swap usage</summary>
+    </key>
+    <key name="show-upload" type="b">
+      <default>true</default>
+      <summary>Show upload</summary>
+    </key>
+    <key name="show-download" type="b">
+      <default>true</default>
+      <summary>Show download</summary>
+    </key>
+    <key name="panel-position" type="s">
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+        <choice value="right"/>
+      </choices>
+      <default>'left'</default>
+      <summary>Panel position</summary>
+      <description>Which panel box to place the indicator in: left, center, or right.</description>
+    </key>
+    <key name="panel-index" type="i">
+      <default>1</default>
+      <range min="-1" max="64"/>
+      <summary>Panel index</summary>
+      <description>Child index in that panel box. 0 is first (far left of that side), higher values sit later (after other buttons). −1 places it last.</description>
+    </key>
+    <key name="item-spacing" type="i">
+      <default>6</default>
+      <range min="0" max="20"/>
+      <summary>Item spacing</summary>
+      <description>Spacing between monitor items in pixels.</description>
+    </key>
+  </schema>
+</schemalist>

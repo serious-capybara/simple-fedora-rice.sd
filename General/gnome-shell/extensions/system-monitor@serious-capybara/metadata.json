@@ -1,0 +1,13 @@
+{
+  "description": "Monitor system from the top bar. Based on system-monitor@gnome-shell-extensions.gcampax.github.com by Florian Müllner.",
+  "gettext-domain": "gnome-shell-extension-system-monitor",
+  "name": "System Monitor",
+  "settings-schema": "org.gnome.shell.extensions.system-monitor-serious-capybara",
+  "shell-version": [
+    "50"
+  ],
+  "url": "https://gitlab.gnome.org/GNOME/gnome-shell-extensions",
+  "uuid": "system-monitor@serious-capybara",
+  "version": 21,
+  "version-name": "50.3"
+}
