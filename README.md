@@ -39,32 +39,25 @@ Follow these steps to install this GNOME rice on your system:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Simple-Fedora-Rice.sd.git
-cd Simple-Fedora-Rice.sd
+git clone https://github.com/serious-capybara/simple-fedora-rice.sd.git
+cd simple-fedora-rice.sd
 ```
 
-### 2. Prepare the Desktop Configuration
+### 2. Install Save Desktop Application
 
-The rice consists of two main directories that need to be compressed together:
-- `DE/` - Contains desktop extensions and related configurations
-- `General/` - Contains themes, icons, fonts, and general settings
-
-### 3. Create the Desktop Backup File
-
-Compress both directories and save with the `.sd` extension:
+Before importing, you need to have the Save Desktop application installed to import the `.sd` file.
 
 ```bash
-# Navigate to the repository directory
-cd Simple-Fedora-Rice.sd
+# On Fedora:
+sudo dnf install flatpak
+flatpak install flathub org.gnome.SaveDesktop
 
-# Compress DE and General folders into a single archive
-zip -r MyCustomDesktop.sd DE/ General/
-
-# Optional: Rename the file as desired (must end with .sd)
-# Example: zip -r MyFedoraRice.sd DE/ General/
+# On Ubuntu/Debian:
+sudo apt install flatpak
+flatpak install flathub org.gnome.SaveDesktop
 ```
 
-### 4. Install Required Applications
+### 3. Install Required Applications
 
 Before importing, install these essential GNOME tools:
 
@@ -80,7 +73,28 @@ sudo apt install gnome-extensions-app gnome-tweaks
 # - Tweaks Tool: To adjust GNOME appearance and behavior
 ```
 
-### 5. Import the Desktop Configuration
+### 4. Prepare the Desktop Configuration
+
+The rice consists of two main directories that need to be compressed together:
+- `DE/` - Contains desktop extensions and related configurations
+- `General/` - Contains themes, icons, fonts, and general settings
+
+### 5. Create the Desktop Backup File
+
+Compress both directories and save with the `.sd` extension:
+
+```bash
+# Navigate to the repository directory
+cd simple-fedora-rice.sd
+
+# Compress DE and General folders into a single archive
+zip -r MyCustomDesktop.sd DE/ General/
+
+# Optional: Rename the file as desired (must end with .sd)
+# Example: zip -r MyFedoraRice.sd DE/ General/
+```
+
+### 6. Import the Desktop Configuration
 
 1. Open the **Save Desktop** application (search for it in your applications menu)
 2. Click on the **Import** section/button
@@ -88,7 +102,7 @@ sudo apt install gnome-extensions-app gnome-tweaks
 4. Wait for the import process to complete
 5. Log out and log back in, or restart your shell (press Alt+F2, type `r`, then Enter)
 
-### 6. Enable and Configure Extensions
+### 7. Enable and Configure Extensions
 
 After importing:
 
@@ -100,7 +114,7 @@ After importing:
    - Configure live wallpaper settings through the Live Wallpaper extension
    - Adjust blur effects and other visual tweaks in their respective extension settings
 
-### 7. Recommended Extensions Included
+### 8. Recommended Extensions Included
 
 This rice includes various useful extensions for developers, such as:
 - Dash to Dock/Panel
@@ -116,7 +130,7 @@ This rice includes various useful extensions for developers, such as:
 ### Directory Structure
 
 ```
-Simple-Fedora-Rice.sd/
+simple-fedora-rice.sd/
 ├── DE/
 │   └── nautilus/
 │       └── python/
@@ -155,7 +169,8 @@ While this is primarily a desktop configuration, here are useful GNOME-related c
 
 ```bash
 # Reload GNOME Shell (after making changes)
-Alt+F2, then type 'r' and Enter
+# On Wayland (GNOME 40+), log out and log back in, or restart your session
+# On Xorg, you can use Alt+F2, then type 'r' and Enter
 
 # Enable/disable specific extensions via command line
 gnome-extensions enable <extension-uuid>
@@ -178,7 +193,7 @@ dconf reset -f /org/gnome/
 **Issue**: Extensions not working after import
 **Solution**: 
 1. Make sure GNOME Extensions app is installed
-2. Try reloading GNOME Shell (Alt+F2, type `r`)
+2. Try restarting your session (log out and log back in) or, if on Xorg, use Alt+F2 then type 'r'
 3. Check if extensions need updates in the Extensions app
 
 **Issue**: Live wallpaper not showing
